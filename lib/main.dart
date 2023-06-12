@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'image_gallery/imageGrid.dart';
 
 void main() {
   runApp(MyApp());
@@ -57,212 +58,17 @@ class MainActivity extends StatelessWidget {
                 ),
               ),
             ),
-            Wrap(children: [
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      mySnackBar("Clicked on photo!", context);
-                    },
-                    child: Container(
-                      child: Image.network(
-                        'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/6523ec68eb8285e2c5dad7c4346f2d71-1664047962397/fdbf11ca-9d24-484c-b612-314d7263dbeb.jpg',
-                        width: 120,
-                        height: 120,
-                      ),
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 0,
-                    left: 25,
-                    child: Container(
-                      padding: EdgeInsets.all(6),
-                      height: 32,
-                      width: 70,
-                      color: Colors.black38,
-                      child: Text(
-                        "Caption",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ],
+
+
+            Wrap(
+              children: [
+                ImgGrid(),
+                ImgGrid(),
+                ImgGrid(),
+                ImgGrid(),
+                ImgGrid(),
+                ImgGrid(),
+              ],
               spacing: 8,
               runSpacing: 8,
             ),
