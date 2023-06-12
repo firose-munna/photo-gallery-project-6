@@ -40,10 +40,10 @@ class MainActivity extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.all(22),
+              padding: EdgeInsets.all(20),
               child: Text(
                 "Welcome to My Photo Gallery!",
-                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 26),
+                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 24),
               ),
             ),
             Padding(
